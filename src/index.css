@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Metropolis;
+  src: url("./font/Metropolis-Regular.otf");
+}
+body {
+  margin: 0;
+  font-family: Metropolis-Light, Metropolis-Bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./Resources/dots.png');
+  background-size: cover;
+  background-position: center; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.img {
+  background-image: url(./Resources/dots.png), url(./Resources/unknown.png);
+  background-position: center center;
+  background-size: cover;
+}
+.css-bsph2u-MuiTableCell-root {
+  text-align: center !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: rgba(177, 23, 5, 0.25) !important;
+}
